@@ -1,0 +1,419 @@
+body {
+  font-family: "Gotham", "Crimson", sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* NAVBARTOP */
+.bgred {
+  --bs-bg-opacity: 1;
+  background-color: #D2001A;
+  padding: 0.5rem 0 1.2rem;
+}
+
+.rmarg {
+  margin-right: 7.5%;
+}
+
+.licol {
+  padding: 0 0.85rem;
+  line-height: 1.5rem;
+  color: #EEEEEE;
+}
+
+.langurl {
+  border-left: 1px solid #fff;
+  margin-top: -2px;
+  padding: 2px 0 1px 20px;
+}
+
+/* navbarbrand */
+.conbrand {}
+
+.bgfff {
+  background-color: #fff;
+  --bs-bg-opacity: 1;
+  padding: 1rem 0 2.4rem;
+  text-align: center;
+}
+
+.logostyle {
+  width: 40%;
+  height: 40%;
+  padding-left: 0.5rem;
+}
+
+.licol2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 0.5rem;
+  margin-right: 1.5rem;
+  line-height: 2rem;
+  color: #73777B;
+}
+
+.brtxt {
+  border-left: 2px solid #73777B;
+  border-right: 2px solid #73777B;
+  padding: 0.5rem 1.2rem;
+}
+
+.srcbtn {
+  border-radius: 100%;
+  border: 1px solid #73777B;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' \
+        xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' \
+        stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* KAROSEL&SELECT */
+#karosel {
+  background-image: url("https://wallpaperset.com/w/full/d/c/7/488203.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.concarousel {
+  padding-top: 0;
+  text-align: center;
+  font-weight: 300;
+  color: grey;
+}
+
+.rowh {
+  margin-top: 0 !important;
+  padding-top: 3%;
+  text-align: left;
+  margin: 5% 0 12.5%;
+  padding-left: 15%;
+}
+
+.hs1 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 1% 0;
+}
+
+.hs3 {
+  font-family: "Roboto";
+  color: #fff;
+}
+
+.customlab {
+  border: none;
+  border-radius: 2%;
+  text-align: center;
+}
+
+.lgcol {
+width: auto;
+}
+
+.lgiborder {
+  border: none;
+}
+
+.lgibutt {
+  padding: 10px 25px;
+  align-items: center;
+}
+
+.lgbut {
+  background-color: #d2001a;
+  color: #fff;
+}
+
+.lgbut:hover {
+  background-color: #d2001a;
+  color: #000;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin: 10px 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  /* change width */
+  height: 10px;
+  /* change height */
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .75;
+  transition: opacity .6s ease;
+  border-radius: 100%; // /* add border-radius */
+}
+
+/* EXCHANGERATES */
+.exnav {
+  align-items: center;
+  width: 100%;
+  padding: 0 7%;
+  border-bottom: 1px;
+  border-bottom: solid;
+  border-color: grey;
+}
+
+.exli1 {
+  font-family: "Gotham", "Crimson", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  margin: 0 3rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.exli2 {
+  font-family: "Gotham", "Crimson", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  margin: 0 4.5rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.exli3 {
+  font-family: "Gotham", "Crimson", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  margin: 0 4.5rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.exli4 {
+  font-family: "Gotham", "Crimson", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  margin: 0 4rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.artis {
+  color: green;
+}
+
+.azalis {
+  color: red;
+}
+
+/* CARDS&PHOTOS */
+.hc1 {
+  font-family: "Gotham";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #000;
+  text-align: center;
+  margin: 3% 45%;
+}
+
+.colphoto {
+  align-items: center;
+  width: 250px;
+  margin-left: 7.5%;
+}
+
+.card {
+  width: 250px;
+  height: 320px;
+  margin: 0 0 0 5rem;
+  padding: 0;
+  border: 0;
+}
+
+.pfoto {
+  color: #fff;
+  line-height: 1.2rem;
+  position: absolute;
+  margin: 5% 55% 0 0;
+}
+
+.card-img-top {
+  max-width: 250px;
+  max-height: 320px;
+  width: 250px;
+  height: 320px;
+  border: 1px solid transparent;
+  border-radius: 7.5%;
+  border-top-left-radius: 7.5% !important;
+  border-top-right-radius: 7.5% !important;
+}
+
+/* SEKTÖRLER&KARTLAR */
+.h3top {
+  font-weight: bold;
+  margin: 2% 5% 0;
+}
+
+.istyle {
+  color: #D2001A;
+  padding: 10px 15px;
+}
+
+.cardbg {
+  background-color: #D8D8D8;
+}
+
+.pcard {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/* HABERLER */
+#haberler {
+  margin-top: 2.5%;
+}
+
+.h1hb {
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+.h1hb:before,
+.h1hb:after {
+  background-color: #D8D8D8;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.h1hb:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.h1hb:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.bgImgCenter {
+  background-image: url('https://media-cdn.t24.com.tr/media/library/2021/03/1614923946000-jj.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.crow1 {
+  width: 50%;
+  max-width: 50%;
+  max-height: 500px;
+  height: 500px;
+}
+
+.crow2 {
+  width: 50%;
+  max-width: 50%;
+  max-height: 500px;
+  height: 500px;
+}
+
+.ccard {
+  width: 60%;
+  height: 130px;
+  background-color: transparent;
+  color: #fff;
+  text-align: left;
+  line-height: 1.5rem;
+  margin-top: 27%;
+}
+
+.ccard2 {
+  width: 100%;
+  max-height: 500px;
+  height: 28%;
+  background-color: transparent;
+  text-align: left;
+  font-size: 1em;
+}
+
+.ccardborder {
+  width: 100%;
+  max-height: 500px;
+  height: 44%;
+  background-color: transparent;
+  text-align: left;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  border-color: #D8D8D8;
+}
+
+.hbbtn {
+  width: 5.5rem;
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
+
+.hbbtn1 {
+  width: 3rem;
+  font-size: 6px;
+  margin-bottom: 2.5rem;
+}
+
+.hbimg {
+  max-width: 50%;
+  width: 100%;
+  height: 80%;
+}
+
+/* FOOTER */
+#footernav {
+  color: #fff;
+}
+
+.customcontfoot {
+  padding-top: 5%;
+}
+
+.fh5 {
+  border-bottom: solid 1px;
+  border-color: #7F8487;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.logocol {
+  position: relative;
+  display: flex;
+  padding-left: 4.5rem;
+}
+
+.brandp {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bgImgCenter1 {
+  background: url('https://i.imgur.com/5YpEVDB.png') no-repeat center;
+  background-size: cover;
+}
